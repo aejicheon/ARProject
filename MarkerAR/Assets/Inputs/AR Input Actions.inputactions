@@ -1,0 +1,54 @@
+{
+    "name": "AR Input Actions",
+    "maps": [
+        {
+            "name": "ARTouchActions",
+            "id": "6f3ea0b5-01b0-4735-bc20-4133c8cd571a",
+            "actions": [
+                {
+                    "name": "TouchBall",
+                    "type": "Button",
+                    "id": "d91a037e-6e66-4082-80ab-3d432f666168",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DragBall",
+                    "type": "Value",
+                    "id": "33c16b03-fcc7-41c3-8762-c525e523c801",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da740f8c-400c-4462-89dc-01b4ac3f4d3b",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchBall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "847cdf84-f413-4728-9d54-fa488102afd1",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragBall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

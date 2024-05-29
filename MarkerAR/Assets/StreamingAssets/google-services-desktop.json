@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315770179395",
+    "project_id": "myar-project-9bb8b",
+    "storage_bucket": "myar-project-9bb8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315770179395:android:3cde4cb9cd4c0bc02529f6",
+        "android_client_info": {
+          "package_name": "kr.ac.hallym.markerAR"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWeam-aUPbfMn1tvqYbtV-INk0gm2MffA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
